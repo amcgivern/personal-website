@@ -1,0 +1,31 @@
+.skill-bar {
+  width: 100%;
+  background-color: grey;
+  border-radius:10px;
+}
+
+.skill-bar-fill {
+  width: 10%;
+  height: 30px;
+  border-radius:10px;
+  background-color: green;
+}
+
+#bootstrap-skill-bar-fill{
+	width:70%;
+}
+#css-skill-bar-fill{
+	width:60%;
+}
+#html-skill-bar-fill{
+	width:95%;
+}
+#js-skill-bar-fill{
+	width:90%;
+}
+#sql-skill-bar-fill{
+	width:35%;
+}
+#csharp-skill-bar-fill{
+	width:75%;
+}
