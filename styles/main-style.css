@@ -1,31 +1,62 @@
-.skill-bar {
-  width: 100%;
-  background-color: grey;
-  border-radius:10px;
+
+
+:root {
+	  /* CSS HEX */
+	--french-sky-blue: #67aaf9ff;
+	--dim-gray: #646165ff;
+	--mindaro: #dbff76ff;
+	--celeste: #9dfff9ff;
+	--fiery-rose: #f45b69ff;
+
+	/* CSS HEX */
+	--tiffany-blue: #00bfb2ff;
+	--dark-slate-gray: #1a5e63ff;
+	--metallic-seaweed: #028090ff;
+	--pale-spring-bud: #f0f3bdff;
+	--red-violet-crayola: #c64191ff;
+
+	/* CSS HEX */
+	--blue-munsell: #1b9aaaff;
+	--space-cadet: #2f3061ff;
+	--paradise-pink: #ef476fff;
+	--lemon-yellow-crayola: #feffa5ff;
+	--lavender-blue: #c3bef7ff;
+}
+/* example of CSS variables
+#div1 {
+  background-color: var(--main-bg-color);
 }
 
-.skill-bar-fill {
-  width: 10%;
-  height: 30px;
-  border-radius:10px;
-  background-color: green;
+#div2 {
+  background-color: var(--main-bg-color);
 }
-
-#bootstrap-skill-bar-fill{
-	width:70%;
+*/
+body {
+	background-color: white;
+	font-family:helvetica;
 }
-#css-skill-bar-fill{
-	width:60%;
+h1{
+	color: var(--french-sky-blue);
+	margin-top:3%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
-#html-skill-bar-fill{
-	width:95%;
+a.active {
+	background-color: var(--tiffany-blue);
 }
-#js-skill-bar-fill{
-	width:90%;
+.profile-img {
+	margin-bottom: 5%;
 }
-#sql-skill-bar-fill{
-	width:35%;
+.job-title {
+	font-weight:bold;
 }
-#csharp-skill-bar-fill{
-	width:75%;
+.company-name {
+	font-style:italic;
+}
+.work-dates{
+	margin-left: 30%;
+}
+@media only screen and (max-width: 600px) {
+	.profileimg {
+		max-width:100px;
+	}
 }

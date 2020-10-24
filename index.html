@@ -11,108 +11,119 @@
 	<!-- Internal CSS -->
 	<!-- Font Awesome 5-->
 	<link rel="stylesheet" href="styles/main-style.css">
-	
+
+	<link rel="icon" href="images/favicon.png">
+
 	<script src="https://kit.fontawesome.com/ca7b68b4cb.js" crossorigin="anonymous"></script>	
 	<title>Amanda McGivern</title>
 	<meta charset = "UTF-8" />
 </head>
-<nav class="navbar navbar-light bg-light col-sm-12">
-  	<a class="navbar-brand  w-75" href="#">
-    	<img src="images/moon_and_stars.gif" width="30" height="30" class="d-inline-block align-top profile-icon" alt="Profile Icon">
-    	Amanda McGivern
- 	</a>
- 	<a class="nav-item nav-link mr-auto" href="#"> <i class="fas fa-file-download"></i> Resume</a>
- 	<a class="nav-item nav-link mr-auto" href="https://github.com/amcgivern"><i class="fab fa-github"></i> Github</a>
-</nav>
 <body>
-	<div class="container col-sm-12 affix">
+	<div class="container col-sm-12">
 		<div class="row">
 			<div class="container col-sm-3 col-md-3">
-				<div class="profile-img">
-					<img src="images/black_quote.jpg" width="360" height="360" class="d-inline-block align-top profile-icon" alt="Profile Icon">
+				<div id="navigation-sidebar" class="sticky-top">
+					<div class="profileimg">
+						<img src="images/logo2.png" class="img-fluid d-inline-block align-top profile-icon" alt="Profile Icon">
+					</div>
+					<ul class="nav flex-column nav-pills">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="#intro-panel">Introduction</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#skills-panel">Skills</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#experience-panel">Professional Experience</a>
+					  </li>
+					   <li class="nav-item">
+					    <a class="nav-link" href="#education-panel">Education</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#awards-panel">Awards & Certificates</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#contact-panel">Contact Me</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-item nav-link mr-auto" target="_blank" href="docs/McGivern_Resume_08_2020.pdf" download> <i class="fas fa-file-download"></i> Resume</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-item nav-link mr-auto" target="_blank" href="https://github.com/amcgivern"><i class="fab fa-github"></i> Github</a>
+					  </li>
+					</ul>
 				</div>
-				<ul class="nav flex-column">
-				  <li class="nav-item">
-				    <a class="nav-link active" href="#">Introduction</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Skills</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Portfolio</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Professional Experience</a>
-				  </li>
-				   <li class="nav-item">
-				    <a class="nav-link" href="#">Education</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#">Awards & Certificates</a>
-				  </li>
-				</ul>
 			</div>
 			<div class="container col-sm-9 col-md-9">
-				<div class="row intro-panel">
+				<div id="intro-panel" class="row intro-panel">
 					<div class="col">
 						<h1>
-							Introduction!
+							Introduction
 						</h1>
 						<p>
-							this is an introduction about me.... to be written later
+							Hi, I'm an innovative, self-motivated computer science graduate looking to use my creativity and problem-solving skills to contribute in creating high-quality software.
 						</p>
 					</div>
 				</div>
-				<div class="row skill-panel">
+				<div class="row summary-panel">
+					<div class="col">
+						<h1>
+							Profile Summary
+						</h1>
+						<p>
+							<ul>
+							    <li>Experience using Bitbucket and Git to manage versions </li>
+							    <li>Used C# in Visual Studio and the Unity 3D game engine to create a PC game </li>
+							    <li>Experience using JavaScript frameworks and WebGL to create web-based applications </li>
+							    <li>Very organized and able to effectively manage time and action items </li>
+							    <li>Excellent ability to multitask and meet aggressive deadlines </li>
+							    <li>Excellent ability to work within a team to complete projects </li>
+							    <li>Good understanding of the software engineering process and experience applying these concepts to software development in a team </li>
+							    <li>Able to communicate effectively both in written and oral form </li>
+							    <li>Strong knowledge of Microsoft Office suite including MS Word, Excel, and Access to perform databases queries using SQL </li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="row skills-panel" id="skills-panel">
 					<div class="col">
 						<h1>
 							Skills
 						</h1>
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<i class="fab fa-bootstrap"></i> Bootstrap 4
-									<div class="skill-bar" id="bootstrap-skill-bar">
-									  	<div class="skill-bar-fill" id="bootstrap-skill-bar-fill"></div>
-									</div>
-								</div>
-								<div class="col">
-									<i class="fab fa-html5"></i> HTML5
-									<div class="skill-bar" id="html-skill-bar">
-									  	<div class="skill-bar-fill" id="html-skill-bar-fill"></div>
-									</div>
-								</div>
-								<div class="col">
-									<i class="fab fa-css3-alt"></i> CSS
-									<div class="skill-bar " id="css-skill-bar">
-									  	<div class="skill-bar-fill" id="css-skill-bar-fill"></div>
-									</div>
-								</div>
+
+						<h3>Programming Languages</h3>
+						<div class="row">
+							<div class="col-1">Strong: </div>
+							<div class="col-6">
+								Javascript, Progress 4GL, Python, C#, CSS3, HTML5
 							</div>
-							<div class="row">
-								<div class="col">
-									<i class="fab fa-js"></i> Javascript
-									<div class="skill-bar" id="js-skill-bar">
-									  	<div class="skill-bar-fill" id="js-skill-bar-fill"></div>
-									</div>
-								</div>
-								<div class="col">
-									<i class="fas fa-code"></i> C#
-									<div class="skill-bar" id="csharp-skill-bar">
-									  	<div class="skill-bar-fill" id="csharp-skill-bar-fill"></div>
-									</div>
-								</div>
-								<div class="col">
-									<i class="fas fa-database"></i> SQL
-									<div class="skill-bar" id="sql-skill-bar">
-									  	<div class="skill-bar-fill" id="sql-skill-bar-fill"></div>
-									</div>
-								</div>
+						</div>
+						<div class="row">
+							<div class="col-1">Familiar: </div>
+							<div class="col-6">C++, Java, SQL </div>
+						</div>
+						<h3>Frameworks</h3>
+						<div class="row">
+							<div class="col-1">Strong: </div>
+							<div class="col-6">
+								jQuery, Bootstrap 4, Kendo UI
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-1">Familiar: </div>
+							<div class="col">Vue </div>
+						</div>
+
+						<h3>Operating Systems</h3>
+						<div class="row">
+							<div class="col-1">Strong: </div>
+							<div class="col-6">
+								Windows 10, AIX
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row portfolio-panel">
+				<!--<div class="row portfolio-panel" id="portfolio-panel">
 					<div class="col">
 						<div class="row">
 							<div class="col">
@@ -125,8 +136,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row experience-panel">
+				</div>-->
+				<div class="row experience-panel" id="experience-panel">
 					<div class="col">
 						<div class="row">
 							<div class="col">
@@ -135,27 +146,68 @@
 						</div>
 						<div class="row">
 							<div class="col">
-								<div>
+								<div class="job-info">
 									<span class="job-title">Programmer/Analyst (Jira Implementation Specialist)</span><br/>
-									<span class="company-name">FDM<sub>4</sub></span>
+									<span class="company-name">FDM<sub>4</sub> International</span>
 									<span class="work-dates">May 2018 - Present</span>
+									<br/>
 									<span class="work-location">North Bay, ON</span>
+								</div>
+								<div class="job-desc">
+									<ul>
+										<li>Responsible for transitioning the company from their internal project management software to the Jira software suite</li>
+									    <li>Fully integrated the old project tracking software with Jira using a newly developed REST API to interact with Jira and Tempo</li>
+									    <li>Administered Jira for the East coast division of the company and was the point person for all modification requests and questions</li>
+									    <li>Responsible for coding, testing and analysing software modifications and features in ERP and e-commerce software applications </li>
+									    <li>Researched, designed, and documented software specifications</li>
+									    <li>Assisted in training new employees on the team</li>
+									    <li>Work extensively in an AIX environment</li>
+									    <li>Performed code reviews for coworkers</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<div>
+								<div class="job-info">
 									<span class="job-title">Data Analyst</span><br/>
 									<span class="company-name">VISR</span>
-									<span class="work-dates">2015</span>
+									<span class="work-dates">June 2015 - September 2015</span>
+									<br/>
 									<span class="work-location">Kitchener, ON</span>
+								</div>
+								<div>
+									<ul>
+									    <li>Analysed large amounts of textual tweet data to determine the expressed emotion and verified categorization done by a machine-learning algorithm</li>
+									    <li>Used MS Excel to identify and correct false readings to train the algorithm</li>
+									    <li>Discussed findings and evaluated work through weekly Skype meetings</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="job-info">
+									<span class="job-title">Office Assistant</span><br/>
+									<span class="company-name">Skyward Towers</span>
+									<span class="work-dates">November 2015 - January 2015</span>
+									<br/>
+									<span class="work-location">Kitchener, ON</span>
+								</div>
+								<div>
+									<ul>
+									    <li>Scanned files to electronic form and performed data entry</li>
+									    <li>Maintained documents and organized digital and physical file systems</li>
+									    <li>Selected and purchased items for children’s Christmas party</li>
+									    <li>Communicated extensively using MS Outlook and used MS Word and Publisher to design posters and notices</li>
+									    <li>Folded cheques and placed in envelopes</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row experience-panel">
+				<div class="row education-panel" id="education-panel">
 					<div class="col">
 						<div class="row">
 							<div class="col">
@@ -173,11 +225,57 @@
 						</div>
 					</div>
 				</div>
-				<div class="row awards-panel">
+				<div class="row awards-panel" id="awards-panel">
 					<div class="col">
 						<div class="row">
 							<div class="col">
-								<h1>Awards & Certificates</h1>
+								<h1>Major Scholarships and Awards</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div>
+									<span class="certificate-title">Carl Sanders Scholarship – Undergraduate</span>
+									<span class="issuing-authority">Nipissing University</span>
+									<span class="award-date">2015, 2016, 2018</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row certificates-panel" id="certificates-panel">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<h1>Certificates</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div>
+									<span class="certificate-title">Game Design and Development Certificate</span>
+									<span class="issuing-authority">Nipissing University</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div>
+									<span class="certificate-title">Introduction to User Experience Principles and Processes Couse Certificate</span>
+									<span class="issuing-authority">University of Michigan</span>
+									<iframe src="docs/IntroToUX.pdf" width="75%" height="850px">
+    								</iframe>
+									<
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row contact-panel" id="contact-panel">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<h1>Contact Me</h1>
 							</div>
 						</div>
 						<div class="row">
@@ -198,5 +296,6 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
