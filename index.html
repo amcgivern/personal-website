@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html lang = "en">
 <head>
-	    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- Internal CSS -->
@@ -19,273 +19,223 @@
 	<meta charset = "UTF-8" />
 </head>
 <body>
-	<div class="container col-sm-12">
-		<div class="row">
-			<div class="container col-sm-3 col-md-3">
-				<div id="navigation-sidebar" class="sticky-top">
-					<div class="profileimg">
-						<img src="images/logo2.png" class="img-fluid d-inline-block align-top profile-icon" alt="Profile Icon">
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+		<div class="collapse navbar-collapse" id="topNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#intro-panel" style="display:none;">Intro</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="#summary-panel">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experience-panel">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact-panel">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item nav-link mr-auto" target="_blank" href="docs/McGivern_Resume_08_2020.pdf" download> <i class="fas fa-file-download"></i> Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-item nav-link mr-auto" target="_blank" href="https://github.com/amcgivern"><i class="fab fa-github"></i> Github</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="pageContainer">
+		<div class="container col-sm-12 col-md-11">
+			<div id="intro-panel" class="row intro-panel section">
+				<div class="col">
+					<div id="introHeader">
+						<div class="nameSection">
+							<h1 id="introName" class="introName">
+								<div class="introFName">Am<span class="highlight">a</span>nda</div>
+								<div class="introLName"><span class="highlight">M</span><sup>c</sup>Givern</div>
+
+							</h1>
+							<h2 class="introPosition">
+								software developer
+							</h2>
+						</div>
+						<div class="scrollMore">
+							<span class="fas fa-angle-down fa-2x scrollMoreIcon"></span>
+						</div>
 					</div>
-					<ul class="nav flex-column nav-pills">
-					  <li class="nav-item">
-					    <a class="nav-link active" href="#intro-panel">Introduction</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#skills-panel">Skills</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#experience-panel">Professional Experience</a>
-					  </li>
-					   <li class="nav-item">
-					    <a class="nav-link" href="#education-panel">Education</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#awards-panel">Awards & Certificates</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" href="#contact-panel">Contact Me</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-item nav-link mr-auto" target="_blank" href="docs/McGivern_Resume_08_2020.pdf" download> <i class="fas fa-file-download"></i> Resume</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-item nav-link mr-auto" target="_blank" href="https://github.com/amcgivern"><i class="fab fa-github"></i> Github</a>
-					  </li>
-					</ul>
 				</div>
 			</div>
-			<div class="container col-sm-9 col-md-9">
-				<div id="intro-panel" class="row intro-panel">
-					<div class="col">
-						<h1>
-							Introduction
-						</h1>
-						<p>
-							Hi, I'm an innovative, self-motivated computer science graduate looking to use my creativity and problem-solving skills to contribute in creating high-quality software.
-						</p>
-					</div>
-				</div>
-				<div class="row summary-panel">
-					<div class="col">
-						<h1>
+			<div class="summary-panel section" id="summary-panel">
+				<div class="col">
+					<div class="sectionHeader">
+						<h2>
 							Profile Summary
-						</h1>
-						<p>
+						</h2>
+					</div>
+					<div class="profileSummaryContainer">
+						<div class="summaryIntro">
+							I'm an innovative, self-motivated computer science graduate looking to use my creativity and problem-solving skills to contribute in creating high-quality software.
+
+						</div>
+						<div class="summarySection">
 							<ul>
-							    <li>Experience using Bitbucket and Git to manage versions </li>
-							    <li>Used C# in Visual Studio and the Unity 3D game engine to create a PC game </li>
-							    <li>Experience using JavaScript frameworks and WebGL to create web-based applications </li>
-							    <li>Very organized and able to effectively manage time and action items </li>
-							    <li>Excellent ability to multitask and meet aggressive deadlines </li>
-							    <li>Excellent ability to work within a team to complete projects </li>
-							    <li>Good understanding of the software engineering process and experience applying these concepts to software development in a team </li>
-							    <li>Able to communicate effectively both in written and oral form </li>
-							    <li>Strong knowledge of Microsoft Office suite including MS Word, Excel, and Access to perform databases queries using SQL </li>
+								<li>Experience using Bitbucket and Git to manage versions </li>
+								<li>Used C# in Visual Studio and the Unity 3D game engine to create a PC game </li>
+								<li>Experience using JavaScript frameworks and WebGL to create web-based applications </li>
+								<li>Very organized and able to effectively manage time and action items </li>
+								<li>Excellent ability to multitask and meet aggressive deadlines </li>
+								<li>Excellent ability to work within a team to complete projects </li>
+								<li>Good understanding of the software engineering process with experience applying these concepts to software development in a team </li>
+								<li>Able to communicate effectively both in written and oral form </li>
+								<li>Strong knowledge of Microsoft Office suite including MS Word, Excel, and Access to perform databases queries using SQL </li>
 							</ul>
-						</p>
-					</div>
-				</div>
-				<div class="row skills-panel" id="skills-panel">
-					<div class="col">
-						<h1>
-							Skills
-						</h1>
+						</div>
+						<div class="skillSection">
+							<div class="skill">
+								<h3 class="skillHeader">Programming Languages</h3>
+								<div class="skillLeft">Strong: </div>
+								<div class="skillRight">
+									Javascript, Progress 4GL, Python, C#, CSS3, HTML5
+								</div>
+								<div class="skillLeft">Familiar: </div>
+								<div class="skillRight">C++, Java, SQL </div>
+							</div>
+							<div class="skill">
+								<h3 class="skillHeader">Frameworks</h3>
+								<div class="skillLeft">Strong: </div>
+								<div class="skillRight">
+									jQuery, Bootstrap 4, Kendo UI
+								</div>
+								<div class="skillLeft">Familiar: </div>
+								<div class="skillRight">Vue </div>
+							</div>
 
-						<h3>Programming Languages</h3>
-						<div class="row">
-							<div class="col-1">Strong: </div>
-							<div class="col-6">
-								Javascript, Progress 4GL, Python, C#, CSS3, HTML5
+							<div class="skill">
+								<h3 class="skillHeader">Operating Systems</h3>
+								<div class="skillLeft">Strong: </div>
+								<div class="skillRight">
+									Windows 10, AIX
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-1">Familiar: </div>
-							<div class="col-6">C++, Java, SQL </div>
+					</div>
+				</div>
+			</div>
+			<div class=" experience-panel section" id="experience-panel">
+				<div class="col">
+					<div class="sectionHeader">
+						<h2>Professional Experience</h2>
+					</div>
+					<div class="">
+						<div class="job-info">
+							<span class="job-title">Programmer/Analyst (Jira Implementation Specialist)</span><br/>
+							<span class="company-name">FDM<sub>4</sub> International</span>
+							<span class="dates">May 2018 - Present</span>
+							<br/>
+							<span class="work-location">North Bay, ON</span>
 						</div>
-						<h3>Frameworks</h3>
-						<div class="row">
-							<div class="col-1">Strong: </div>
-							<div class="col-6">
-								jQuery, Bootstrap 4, Kendo UI
+						<div class="job-desc">
+							<ul>
+								<li>Responsible for transitioning the company from their internal project management software to the Jira software suite</li>
+								<li>Fully integrated the old project tracking software with Jira using a newly developed REST API to interact with Jira and Tempo</li>
+								<li>Administered Jira for the East coast division of the company and was the point person for all modification requests and questions</li>
+								<li>Responsible for coding, testing and analysing software modifications and features in ERP and e-commerce software applications </li>
+								<li>Researched, designed, and documented software specifications</li>
+								<li>Assisted in training new employees on the team</li>
+								<li>Work extensively in an AIX environment</li>
+								<li>Performed code reviews for coworkers</li>
+							</ul>
+						</div>
+					</div>
+					<div class="">
+						<div class="job-info">
+							<span class="job-title">Data Analyst</span><br/>
+							<span class="company-name">VISR</span>
+							<span class="dates">June 2015 - September 2015</span>
+							<br/>
+							<span class="work-location">Kitchener, ON</span>
+						</div>
+						<div>
+							<ul>
+								<li>Analysed large amounts of textual tweet data to determine the expressed emotion and verified categorization done by a machine-learning algorithm</li>
+								<li>Used MS Excel to identify and correct false readings to train the algorithm</li>
+								<li>Discussed findings and evaluated work through weekly Skype meetings</li>
+							</ul>
+						</div>
+					</div>
+					<div class="">
+						<div class="job-info">
+							<span class="job-title">Office Assistant</span><br/>
+							<span class="company-name">Skyward Towers</span>
+							<span class="dates">November 2015 - January 2015</span>
+							<br/>
+							<span class="work-location">Kitchener, ON</span>
+						</div>
+						<div>
+							<ul>
+								<li>Scanned files to electronic form and performed data entry</li>
+								<li>Maintained documents and organized digital and physical file systems</li>
+								<li>Selected and purchased items for children’s Christmas party</li>
+								<li>Communicated extensively using MS Outlook and used MS Word and Publisher to design posters and notices</li>
+								<li>Folded cheques and placed in envelopes</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class=" education-panel" id="">
+					<div class="sectionHeader">
+						<h2>Education</h2>
+					</div>
+					<div class="">
+						<div class="educationIntro">
+							<div>
+								<img src="images/nipissing_logo.png" alt="Nipissing Logo">
+							</div>
+							<div class="achievementDetails">
+								<span class="job-title">Honours Bachelor of Science Specialization in Computer Science</span><br>
+								<span class="company-name">Nipissing University</span>
+								<span class="dates">September 2015 - May 2019</span>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-1">Familiar: </div>
-							<div class="col">Vue </div>
-						</div>
+						<div class="profileSummaryContainer">
+							<div class="col-sm-6">
+								<h3>Certificates</h3>
+								<div class="achievementDetails">
+									<span class="job-title">Game Design and Development Certificate</span>
+									<span class="company-name">Nipissing University</span>
+									<span class="dates">June 2019</span>
+								</div>
+								<div class="achievementDetails">
+									<span class="job-title">Introduction to User Experience Principles and Processes</span>
+									<span class="company-name">University of Michigan</span>
+									<span class="dates">August 2020</span>
+										<!--<iframe src="docs/IntroToUX.pdf" width="75%" height="850px">
+										</iframe>-->
+									</div>
+								</div>
+								<div class="col-sm-6" id="awards-panel">
+									<h3>Major Scholarships and Awards</h3>
+									<div class="achievementDetails">
+										<span class="job-title">Carl Sanders Scholarship – Undergraduate</span>
+										<span class="company-name">Nipissing University</span>
+										<span class="dates">2015, 2016, 2018</span>
+									</div>
+								</div>
+							</div>
 
-						<h3>Operating Systems</h3>
-						<div class="row">
-							<div class="col-1">Strong: </div>
-							<div class="col-6">
-								Windows 10, AIX
-							</div>
 						</div>
 					</div>
 				</div>
-				<!--<div class="row portfolio-panel" id="portfolio-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Portfolio</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<i class="fab fa-github"></i> <a href="https://github.com/amcgivern">Github</a>
-							</div>
-						</div>
+				<div class="contact-panel section" id="contact-panel">
+					<div class="sectionHeader">
+						<h2>Contact Me</h2>
 					</div>
-				</div>-->
-				<div class="row experience-panel" id="experience-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Professional Experience</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="job-info">
-									<span class="job-title">Programmer/Analyst (Jira Implementation Specialist)</span><br/>
-									<span class="company-name">FDM<sub>4</sub> International</span>
-									<span class="work-dates">May 2018 - Present</span>
-									<br/>
-									<span class="work-location">North Bay, ON</span>
-								</div>
-								<div class="job-desc">
-									<ul>
-										<li>Responsible for transitioning the company from their internal project management software to the Jira software suite</li>
-									    <li>Fully integrated the old project tracking software with Jira using a newly developed REST API to interact with Jira and Tempo</li>
-									    <li>Administered Jira for the East coast division of the company and was the point person for all modification requests and questions</li>
-									    <li>Responsible for coding, testing and analysing software modifications and features in ERP and e-commerce software applications </li>
-									    <li>Researched, designed, and documented software specifications</li>
-									    <li>Assisted in training new employees on the team</li>
-									    <li>Work extensively in an AIX environment</li>
-									    <li>Performed code reviews for coworkers</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="job-info">
-									<span class="job-title">Data Analyst</span><br/>
-									<span class="company-name">VISR</span>
-									<span class="work-dates">June 2015 - September 2015</span>
-									<br/>
-									<span class="work-location">Kitchener, ON</span>
-								</div>
-								<div>
-									<ul>
-									    <li>Analysed large amounts of textual tweet data to determine the expressed emotion and verified categorization done by a machine-learning algorithm</li>
-									    <li>Used MS Excel to identify and correct false readings to train the algorithm</li>
-									    <li>Discussed findings and evaluated work through weekly Skype meetings</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="job-info">
-									<span class="job-title">Office Assistant</span><br/>
-									<span class="company-name">Skyward Towers</span>
-									<span class="work-dates">November 2015 - January 2015</span>
-									<br/>
-									<span class="work-location">Kitchener, ON</span>
-								</div>
-								<div>
-									<ul>
-									    <li>Scanned files to electronic form and performed data entry</li>
-									    <li>Maintained documents and organized digital and physical file systems</li>
-									    <li>Selected and purchased items for children’s Christmas party</li>
-									    <li>Communicated extensively using MS Outlook and used MS Word and Publisher to design posters and notices</li>
-									    <li>Folded cheques and placed in envelopes</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<div class="contactSection">
+						Interested in hiring me or have questions? Send me an email at <a id="emailMe" href="mailto:amanda.m.mcgivern@gmail.com">amanda.m.mcgivern@gmail.com</a>.<br/>
+						You can also check out the links below for more examples of my work.
 					</div>
-				</div>
-				<div class="row education-panel" id="education-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Education</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div>
-									<span class="degree-name">Honours Bachelor of Science Specialization in Computer Science</span><br/>
-									<span class="school-name">Nipissing University</span>
-									<span class="education-dates">September 2015 - May 2019</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row awards-panel" id="awards-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Major Scholarships and Awards</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div>
-									<span class="certificate-title">Carl Sanders Scholarship – Undergraduate</span>
-									<span class="issuing-authority">Nipissing University</span>
-									<span class="award-date">2015, 2016, 2018</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row certificates-panel" id="certificates-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Certificates</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div>
-									<span class="certificate-title">Game Design and Development Certificate</span>
-									<span class="issuing-authority">Nipissing University</span>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div>
-									<span class="certificate-title">Introduction to User Experience Principles and Processes Couse Certificate</span>
-									<span class="issuing-authority">University of Michigan</span>
-									<iframe src="docs/IntroToUX.pdf" width="75%" height="850px">
-    								</iframe>
-									<
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row contact-panel" id="contact-panel">
-					<div class="col">
-						<div class="row">
-							<div class="col">
-								<h1>Contact Me</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div>
-									<span class="certificate-title">Game Design and Development Certificate</span>
-									<span class="issuing-authority">Nipissing University</span>
-								</div>
-							</div>
-						</div>
+					<div class="contactSection">
+						<a class="" target="_blank" href="https://github.com/amcgivern"><i class="fab fa-github"></i> Github</a>
+						<a class="" target="_blank" href="https://www.linkedin.com/in/amanda-mcgivern-b643221b2/"><i class="fab fa-linkedin"></i> LinkedIn</a>
 					</div>
 				</div>
 			</div>
