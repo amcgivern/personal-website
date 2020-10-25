@@ -215,6 +215,12 @@ a.nav-link.active {
 #topNav a.nav-link {
     padding: 10px 1em 10px 1em;
 }
+.offset-header {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
 
 /****** Scroll down animation ******/
 /* The animation code */

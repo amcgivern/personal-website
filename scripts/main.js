@@ -2,7 +2,7 @@ var _sections = $($(".section").get().reverse());
 var _navLinks = $('#topNav > ul > li > a');
 	var sectionIdTonavigationLink = {};
 	_sections.each(function() {
-	    var id = $(this).attr('id');
+	    var id = $(this).find("a").first().attr('id');
 	    sectionIdTonavigationLink[id] = $('#topNav > ul > li > a[href=\\#' + id + ']');
 	});
 function init(){
@@ -44,7 +44,7 @@ function highlightNav(){
         // if the user has scrolled over the top of the section  
         if (scrollPosition >= sectionTop || lastSection ) {
             // get the section id
-            var id = currSection.attr('id');
+            var id = currSection.find("a").first().attr('id');
             // get the corresponding navigation link
             var navLink = sectionIdTonavigationLink[id];
             // if the link is not active
