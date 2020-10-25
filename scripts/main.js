@@ -10,6 +10,7 @@ function init(){
 
 	highlightNav();
 	$(window).scroll( throttle(highlightNav,100) );
+    $(window).scroll( throttle(hideScrollArrow,100) );
 }
 function bindClickEvents(){
 	$("#topNav li").on("click",function(){setNavActive(this);});
@@ -59,6 +60,17 @@ function highlightNav(){
     });
 }
 
+function hideScrollArrow(){
+    var scrollPosition = $(window).scrollTop();
+    var scrollArrow = $(".scrollMoreIcon");
+    
+    if ((scrollPosition / scrollArrow.offset().top) * 100 > 60){
+        scrollArrow.fadeOut("slow");
+    }
+    else {
+        scrollArrow.fadeIn();
+    }
+} 
 // throttle function, enforces a minimum time interval
 function throttle(fn, interval) {
     var lastCall, timeoutId;

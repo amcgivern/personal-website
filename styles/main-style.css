@@ -99,13 +99,18 @@ sup { top: -.25em; }
     justify-content: center;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .scrollMore{
 	text-align:center;
-	margin-top:10%;
+	/* margin-top:10%; */
+	width: 100%;
+	position: absolute;
+	top: 80vh;
 }
 .scrollMoreIcon{
-	color:#0000006b;
+	color: #638ab4;
+	/* margin-top: 5vh; */
 }
 
 span.highlight {
@@ -210,6 +215,24 @@ a.nav-link.active {
 #topNav a.nav-link {
     padding: 10px 1em 10px 1em;
 }
+
+/****** Scroll down animation ******/
+/* The animation code */
+@keyframes scrollDown {
+  0%   {margin-top: -1.5%; opacity: 0.15}
+  40% {margin-top: 0%; opacity: 0.75}
+  60% {margin-top: 0%; opacity: 0.75}
+  100% {margin-top: -1.5%; opacity: 0.15}
+}
+
+/* The element to apply the animation to */
+.scrollMore span{
+  animation-name: scrollDown;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 @media only screen and (max-width: 600px) {
 	.profileimg {
 		max-width:100px;
